@@ -48,7 +48,7 @@ $filmes = [[
             ["genero" => "Comédia",
             "nome" => "Mean Girls",
             "artista" => "Zach Gonzales",
-            "img" => "img/comedia/meangirls-zach-gonzales.jpg"],
+            "img" => "img/comedia/meangirls-zach-gonzalez.jpg"],
 
             ["genero" => "Comédia",
             "nome" => "MIB",
@@ -92,7 +92,7 @@ $filmes = [[
             ["genero" => "Romance",
             "nome" => "500 Days of Summer",
             "artista" => "Nick Morrison",
-            "img" => "img/romance/500daysofsummer-nick-morrison.jpg"],
+            "img" => "img/romance/500daysofsummer-nick-morrrison.jpg"],
 
             ["genero" => "Romance",
             "nome" => "Amelie Poulain",
@@ -119,7 +119,7 @@ $filmes = [[
             ["genero" => "Terror",
             "nome" => "Us",
             "artista" => "Zach Gonzales",
-            "img" => "img/terror/us-zach-gonzales.jpg"],
+            "img" => "img/terror/us-zach-gonzalez.jpg"],
 
             ["genero" => "Terror",
             "nome" => "Invisible Man",
@@ -140,7 +140,7 @@ $filmes = [[
 //var_dump($filmes[1][0]["genero"]);
 
 
-for($i=0; $i < count($filmes); $i++){
-    echo ($filmes[$i][0]["genero"]);
-}
+//for($i=0; $i < count($filmes); $i++){
+//    echo ($filmes[$i][0]["genero"]);
+//}
 ?>
