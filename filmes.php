@@ -2,6 +2,7 @@
 
 $filmes = [[
             ["genero" => "Ação",
+            "imagem" => "img/categorias/acao.jpg",
             "nome" => "Blade Runner",
             "artista" => "Oliver Rankin",
             "img" => "img/acao/blade-runner-oliver-rankin.jpg"],
@@ -24,6 +25,7 @@ $filmes = [[
 
             [
             ["genero" => "Aventura",
+            "imagem" => "img/categorias/aventura.jpg",
             "nome" => "Almost Famous",
             "artista" => "Matthew Peak",
             "img" => "img/aventura/almostfamous-matthew-peak.jpg"],
@@ -46,6 +48,7 @@ $filmes = [[
 
             [
             ["genero" => "Comédia",
+            "imagem" => "img/categorias/comedia.jpg",
             "nome" => "Mean Girls",
             "artista" => "Zach Gonzales",
             "img" => "img/comedia/meangirls-zach-gonzalez.jpg"],
@@ -68,6 +71,7 @@ $filmes = [[
             
             [
             ["genero" => "Drama",
+            "imagem" => "img/categorias/drama.jpg",
             "nome" => "Joker",
             "artista" => "Jack Gregory",
             "img" => "img/drama/joker-jack-gregory.jpg"],
@@ -90,6 +94,7 @@ $filmes = [[
 
             [
             ["genero" => "Romance",
+            "imagem" => "img/categorias/romance.jpg",
             "nome" => "500 Days of Summer",
             "artista" => "Nick Morrison",
             "img" => "img/romance/500daysofsummer-nick-morrrison.jpg"],
@@ -117,6 +122,7 @@ $filmes = [[
 
             [
             ["genero" => "Terror",
+            "imagem" => "img/categorias/terror.jpg",
             "nome" => "Us",
             "artista" => "Zach Gonzales",
             "img" => "img/terror/us-zach-gonzalez.jpg"],
@@ -127,7 +133,7 @@ $filmes = [[
             "img" => "img/terror/invisibleman-rafael-orrico-díez.jpg"],
 
             ["genero" => "Terror",
-            "nome" => "Midsomar",
+            "nome" => "Midsommar",
             "artista" => "Gabriel Murgueytio",
             "img" => "img/terror/midsomar-gabriel-murgueytio.jpg"],
 
