@@ -13,16 +13,6 @@ html {
     src: url(../font/Cocogoose\ Pro-trial.ttf);
 }
 
-@font-face {
-    font-family: cocogooselight;
-    src: url(../font/Cocogoose\ Pro\ Semilight-trial.ttf);
-}
-
-@font-face {
-    font-family: cocogooseultralight;
-    src: url(../font/Cocogoose\ Pro\ Ultralight-trial.ttf);
-}
-
 body {
     font-family: cocogoose;
     background-image: url(../img/background.jpg);
@@ -366,4 +356,140 @@ footer div {
 footer div p {
     color: black;
     font-size: smaller;
+}
+
+@media (max-width: 1279px) {
+    #categorias, #destaques, #recomendados {
+        width: 98%;
+    }
+}
+
+@media (max-width: 768px) {
+    #banner {
+        height: 500px;
+    }
+
+    #banner h1 {
+        font-size: 3rem;
+    }
+
+    #banner p {
+        font-size: 1rem;
+    }
+
+    #categorias, #destaques, #recomendados {
+        width: 90%;
+    }
+
+    #categoria {
+        width: calc(100%/3 - 20px);
+        margin-bottom: 20px;
+    }
+
+    #destaque, #recomendado {
+        width: 47%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 670px) {
+    header nav {
+        margin-right: 5px;
+    }
+    header nav ul li {
+        padding: 3px;
+        margin-right: 5px;
+        font-size: 0.7rem;
+    }
+
+    #banner {
+        height: 300px;
+    }
+
+    #banner h1 {
+        font-size: 2.2rem;
+        margin-bottom: 7px;
+    }
+
+    #banner p {
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+
+    #banner button {
+        border-radius: 30px;
+        padding: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 0.6rem;
+    }
+}
+ 
+@media (max-width: 480px) {
+    header div h2 {
+        display: none;
+    }
+
+    header div img {
+        width: 7%;
+        margin: 5px;
+        margin-left: 6px;
+    }
+
+    header nav {
+        margin-right: 3px;
+    }
+    header nav ul li {
+        padding: 3px;
+        margin-right: 3px;
+        font-size: 0.6rem;
+    }
+
+    #banner {
+        height: 250px;
+    }
+
+    #banner h1 {
+        font-size: 1.7rem;
+        margin-bottom: 5px;
+    }
+
+    #banner p {
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+    }
+
+    #banner button {
+        border-radius: 25px;
+        font-size: 0.5rem;
+    }
+    
+    #categorias {
+        margin-bottom: 10px;
+    }
+
+    #categorias h3 {
+        font-size: 0.8rem;
+    }
+
+    #destaques h3, #recomendados h3 {
+        font-size: 1.1rem;
+    }
+
+    #destaque, #recomendado {
+        width: 100%;
+    }
+
+    footer {
+        height: 60px;
+    }
+    
+    footer nav ul li {
+        padding-right: 7px;
+        font-size: 0.6rem;
+    }
+    
+    footer div p {
+        font-size: 0.6rem;
+    }
 }
