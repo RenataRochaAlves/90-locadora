@@ -35,7 +35,7 @@ include("menu.php");
             <button type=button>saiba mais</button>
         </div>
 
-        <div id="categorias">
+        <div id="categorias" a href="#">
             <?php for($i=0; $i < count($filmes); $i++) { ?>
                 <div id="categoria">
                     <img src="<?= $filmes[$i][0]["imagem"] ?>" alt="<?= $filmes[$i][0]["genero"] ?>">
@@ -75,7 +75,9 @@ include("menu.php");
                 <?php } ?>
             </ul>
         </nav>
-        <p>Copyright © Renata Rocha</p>
+        <div>
+            <p>Copyright © Renata Rocha</p>
+        </div>
     </footer>
 
 </body>
