@@ -40,6 +40,9 @@ include("menu.php");
                 <div id="categoria">
                     <img src="<?= $filmes[$i][0]["imagem"] ?>" alt="<?= $filmes[$i][0]["genero"] ?>">
                     <h3><a href="#"><?= $filmes[$i][0]["genero"] ?></a></h3>
+                    <div id="texto">
+                        <h3><a href="#"><?= $filmes[$i][0]["genero"] ?></a></h3>
+                    </div>
                 </div>
             <?php } ?>
         </div>
@@ -49,8 +52,10 @@ include("menu.php");
             <?php for($i=0; $i < count($filmes); $i++) { ?>
                 <div id="destaque">
                     <img src="<?= $filmes[$i][1]["img"] ?>" alt="<?= $filmes[$i][0]["nome"] ?>">
-                    <h4><a href="#"><?= $filmes[$i][1]["nome"] ?></a></h3>
-                    <p>Artista: <?= $filmes[$i][1]["artista"] ?></p>
+                    <div id="texto">
+                        <h4><a href="#"><?= $filmes[$i][1]["nome"] ?></a></h3>
+                        <p>Artista: <?= $filmes[$i][1]["artista"] ?></p>
+                    </div>
                 </div>
             <?php } ?>
         </div>
@@ -60,8 +65,10 @@ include("menu.php");
             <?php for($i=0; $i < count($filmes); $i++) { ?>
                 <div id="recomendado">
                     <img src="<?= $filmes[$i][2]["img"] ?>" alt="<?= $filmes[$i][0]["nome"] ?>">
-                    <h4><a href="#"><?= $filmes[$i][2]["nome"] ?></a></h3>
-                    <p>Artista: <?= $filmes[$i][2]["artista"] ?></p>
+                    <div id="texto">
+                        <h4><a href="#"><?= $filmes[$i][2]["nome"] ?></a></h3>
+                        <p>Artista: <?= $filmes[$i][2]["artista"] ?></p>
+                    </div>
                 </div>
             <?php } ?>
         </div>
