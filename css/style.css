@@ -140,7 +140,7 @@ main {
     margin-bottom: 30px;
 }
 
-#categoria {
+.categoria {
     width: 15%;
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@ main {
     position: relative;
 }
 
-#categoria #texto {
+.categoria #texto {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -160,22 +160,22 @@ main {
     opacity: 0;
 }
 
-#categoria #texto:hover {
+.categoria #texto:hover {
     opacity: 0.8;
     transition: .5s ease;
 }
 
-#categoria h3 {
+.categoria h3 {
     position: absolute;
     text-transform: uppercase;
 }
 
-#categoria h3 a {
+.categoria h3 a {
     text-decoration: none;
     color: white;
 }
 
-#categoria img {
+.categoria img {
     width: 100%;
     opacity: 0.5;
 }
@@ -199,7 +199,7 @@ main {
     margin-bottom: 20px;
 }
 
-#destaque {
+.destaque {
     width: 30%;
     display: inline-block;
     justify-content: center;
@@ -209,11 +209,11 @@ main {
     margin-bottom: 20px;
 }
 
-#destaque img {
+.destaque img {
     width: 100%;
 }
 
-#destaque #texto {
+.destaque #texto {
     width: 100%;
     height: calc(100% - 5px);
     display: flex;
@@ -227,18 +227,18 @@ main {
     opacity: 0;
 }
 
-#destaque #texto:hover {
+.destaque #texto:hover {
     opacity: 0.9;
     transition: .5s ease;
 }
 
 
-#destaque #texto h4 a {
+.destaque #texto h4 a {
     text-decoration: none;
     color: white;
 }
 
-#destaque #texto p {
+.destaque #texto p {
     font-weight: lighter;
     font-size: smaller;
     color: #4F4F4F;
@@ -264,7 +264,7 @@ main {
     margin-bottom: 20px;
 }
 
-#recomendado {
+.recomendado {
     width: 30%;
     display: inline-block;
     justify-content: center;
@@ -274,11 +274,11 @@ main {
     margin-bottom: 20px;
 }
 
-#recomendado img {
+.recomendado img {
     width: 100%;
 }
 
-#recomendado #texto {
+.recomendado #texto {
     width: 100%;
     height: calc(100% - 5px);
     display: flex;
@@ -292,18 +292,18 @@ main {
     opacity: 0;
 }
 
-#recomendado #texto:hover {
+.recomendado #texto:hover {
     opacity: 0.9;
     transition: .5s ease;
 }
 
 
-#recomendado #texto h4 a {
+.recomendado #texto h4 a {
     text-decoration: none;
     color: white;
 }
 
-#recomendado #texto p {
+.recomendado #texto p {
     font-weight: lighter;
     font-size: smaller;
     color: #4F4F4F;
@@ -359,7 +359,7 @@ footer div p {
 }
 
 @media (max-width: 1279px) {
-    #categorias, #destaques, #recomendados {
+    #categorias, .destaques, #recomendados {
         width: 98%;
     }
 }
@@ -381,12 +381,12 @@ footer div p {
         width: 90%;
     }
 
-    #categoria {
+    .categoria {
         width: calc(100%/3 - 20px);
         margin-bottom: 20px;
     }
 
-    #destaque, #recomendado {
+    .destaque, .recomendado {
         width: 47%;
         margin-bottom: 30px;
     }
@@ -476,7 +476,7 @@ footer div p {
         font-size: 1.1rem;
     }
 
-    #destaque, #recomendado {
+    .destaque, .recomendado {
         width: 100%;
     }
 

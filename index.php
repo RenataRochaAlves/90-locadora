@@ -37,7 +37,7 @@ include("menu.php");
 
         <div id="categorias" a href="#">
             <?php for($i=0; $i < count($filmes); $i++) { ?>
-                <div id="categoria">
+                <div class="categoria">
                     <img src="<?= $filmes[$i][0]["imagem"] ?>" alt="<?= $filmes[$i][0]["genero"] ?>">
                     <h3><a href="#"><?= $filmes[$i][0]["genero"] ?></a></h3>
                     <div id="texto">
@@ -50,7 +50,7 @@ include("menu.php");
         <div id="destaques">
             <h3>Destaques</h3>
             <?php for($i=0; $i < count($filmes); $i++) { ?>
-                <div id="destaque">
+                <div class="destaque">
                     <img src="<?= $filmes[$i][1]["img"] ?>" alt="<?= $filmes[$i][0]["nome"] ?>">
                     <div id="texto">
                         <h4><a href="#"><?= $filmes[$i][1]["nome"] ?></a></h3>
@@ -63,7 +63,7 @@ include("menu.php");
         <div id="recomendados">
             <h3>Recomendados</h3>
             <?php for($i=0; $i < count($filmes); $i++) { ?>
-                <div id="recomendado">
+                <div class="recomendado">
                     <img src="<?= $filmes[$i][2]["img"] ?>" alt="<?= $filmes[$i][0]["nome"] ?>">
                     <div id="texto">
                         <h4><a href="#"><?= $filmes[$i][2]["nome"] ?></a></h3>

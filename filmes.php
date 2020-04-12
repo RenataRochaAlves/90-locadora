@@ -130,7 +130,7 @@ $filmes = [[
             ["genero" => "Terror",
             "nome" => "Invisible Man",
             "artista" => "Rafael Orrico Díez",
-            "img" => "img/terror/invisibleman-rafael-orrico-díez.jpg"],
+            "img" => "img/terror/invisibleman-rafael-orrico-diez.jpg"],
 
             ["genero" => "Terror",
             "nome" => "Midsommar",
