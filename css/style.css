@@ -149,7 +149,7 @@ main {
     position: relative;
 }
 
-.categoria #texto {
+.categoria .textocategoria {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -160,7 +160,7 @@ main {
     opacity: 0;
 }
 
-.categoria #texto:hover {
+.categoria .textocategoria:hover {
     opacity: 0.8;
     transition: .5s ease;
 }
@@ -181,16 +181,16 @@ main {
 }
 
 
-/* aqui começa os destaques */
+/* aqui começa os destaques e recomendados */
 
-#destaques {
+.secao {
     width: 85%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#destaques h3 {
+.secao h3 {
     display: block;
     width: 100%;
     position: relative;
@@ -199,7 +199,7 @@ main {
     margin-bottom: 20px;
 }
 
-.destaque {
+.filme {
     width: 30%;
     display: inline-block;
     justify-content: center;
@@ -209,11 +209,11 @@ main {
     margin-bottom: 20px;
 }
 
-.destaque img {
+.filme img {
     width: 100%;
 }
 
-.destaque #texto {
+.filme .texto {
     width: 100%;
     height: calc(100% - 5px);
     display: flex;
@@ -227,87 +227,22 @@ main {
     opacity: 0;
 }
 
-.destaque #texto:hover {
+.filme .texto:hover {
     opacity: 0.9;
     transition: .5s ease;
 }
 
 
-.destaque #texto h4 a {
+.filme .texto h4 a {
     text-decoration: none;
     color: white;
 }
 
-.destaque #texto p {
+.filme .texto p {
     font-weight: lighter;
     font-size: smaller;
     color: #4F4F4F;
     padding-top: 10px;
-}
-
-
-/* aqui começa os recomendados */
-
-#recomendados {
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#recomendados h3 {
-    display: block;
-    width: 100%;
-    position: relative;
-    left: 0px;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.recomendado {
-    width: 30%;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.recomendado img {
-    width: 100%;
-}
-
-.recomendado #texto {
-    width: 100%;
-    height: calc(100% - 5px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: black;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    opacity: 0;
-}
-
-.recomendado #texto:hover {
-    opacity: 0.9;
-    transition: .5s ease;
-}
-
-
-.recomendado #texto h4 a {
-    text-decoration: none;
-    color: white;
-}
-
-.recomendado #texto p {
-    font-weight: lighter;
-    font-size: smaller;
-    color: #4F4F4F;
-    margin-top: 10px;
 }
 
 /* aqui começa o footer */
@@ -359,7 +294,7 @@ footer div p {
 }
 
 @media (max-width: 1279px) {
-    #categorias, .destaques, #recomendados {
+    #categorias, .secao {
         width: 98%;
     }
 }
@@ -377,7 +312,7 @@ footer div p {
         font-size: 1rem;
     }
 
-    #categorias, #destaques, #recomendados {
+    #categorias, .secao {
         width: 90%;
     }
 
@@ -386,7 +321,7 @@ footer div p {
         margin-bottom: 20px;
     }
 
-    .destaque, .recomendado {
+    .filme {
         width: 47%;
         margin-bottom: 30px;
     }
@@ -472,11 +407,11 @@ footer div p {
         font-size: 0.8rem;
     }
 
-    #destaques h3, #recomendados h3 {
+    .secao h3 {
         font-size: 1.1rem;
     }
 
-    .destaque, .recomendado {
+    .filme {
         width: 100%;
     }
 
